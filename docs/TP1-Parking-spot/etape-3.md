@@ -1,7 +1,11 @@
 # Etape 3 : Envoyer l'information au serveur
 
 ## Objectifs
-Envoyer l'information au serveur
+Envoyer le statut (occupé / libre) au serveur. 
+On enverra un entier binaire : 
+
+occupé = 1   
+libre = 0
 
 ## Matériel nécéssaire 
 N/A
@@ -10,18 +14,11 @@ N/A
 N/A
 
 ## Ressources 
-- [ArduinoMqqtClient](https://github.com/arduino-libraries/ArduinoMqttClient)
-- [ArduinoWifi]()
-## Extraits de code 
+- [ArduinoMqqtClient](https://www.arduino.cc/reference/en/libraries/arduinomqttclient/)
+- [ArduinoWifi](https://www.arduino.cc/reference/en/libraries/wifi/)
 
+## Extraits de code 
+Envoyer un message au serveur MQTT : 
 ```c
-float readDistanceCM() {
-  digitalWrite(TRIG_PIN, LOW);
-  delayMicroseconds(2);
-  digitalWrite(TRIG_PIN, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(TRIG_PIN, LOW);
-  int duration = pulseIn(ECHO_PIN, HIGH);
-  return duration * 0.034 / 2;
-}
+
 ```

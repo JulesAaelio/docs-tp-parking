@@ -10,13 +10,14 @@ Lorsque la place est libre, on éclairera une LED de couleur verte.
 - [Capteur de distance ultrason](https://leony.ydayslyon.fr/consumables/159)
 
 ## Branchements
-![branchements](../images/step-2.png)
+![breaboard](../images/step-2_bb.png)
+![schematics](../images/step-2_schem.png)
 
 ## Ressources 
 [Fiche technique du capteur](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
 
 ## Extraits de code 
-
+Lire la distance :
 ```c
 float readDistanceCM() {
   digitalWrite(TRIG_PIN, LOW);

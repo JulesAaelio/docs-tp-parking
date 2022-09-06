@@ -10,12 +10,14 @@ Lorsque la place est libre, on éclairera une LED de couleur verte.
 - [Breaboard](https://leony.ydayslyon.fr/consumables/291)
 - [LED Rouge](https://leony.ydayslyon.fr/consumables/80)
 - [LED Verte](https://leony.ydayslyon.fr/consumables/88)
+- 2 x [Resistances 220](https://leony.ydayslyon.fr/consumables/104) 
 
 ## Ressources documentaires
 N/A
 
-## Schéma de branchement
-![branchements](../images/step-1.png)
+## Schémas de branchement
+![breaboard](../images/step-1_bb.png)
+![schematics](../images/step-1_schem.png)
 
 
 ## Extrait de code 
