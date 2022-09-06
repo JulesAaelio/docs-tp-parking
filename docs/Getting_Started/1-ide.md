@@ -4,3 +4,4 @@
 - Télécharger l'IDE Arduino :  [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
 - Suivre les instructions à la page 17 de la [documentation](../files/AZ194%20NodeMCU%20Amica%20V2.pdf)
 
+> ATTENTION : Si vous n'avez pas de port USB standard sur votre ordinateur, prévoyez vos adapatateurs. 
