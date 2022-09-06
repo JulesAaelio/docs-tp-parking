@@ -3,7 +3,7 @@
 ## Objectifs
 Utiliser un capteur de distance pour déterminer si la place de parking est occupée ou non et changer l'état des LED en fonction. 
 
-Lorsque la place est occupée, on éclaira une LED de couleur rouge.   
+Lorsque la place est occupée, on éclairera une LED de couleur rouge.   
 Lorsque la place est libre, on éclairera une LED de couleur verte. 
 
 ## Matériel nécéssaire 
