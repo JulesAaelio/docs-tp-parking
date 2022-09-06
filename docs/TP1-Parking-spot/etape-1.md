@@ -1,4 +1,4 @@
-# Etape 1 : Capteur de présence
+# Etape 1 : Faire clignoter les LEDS
 
 ## Objectifs 
 Utiliser un capteur de présence pour détécter la présence d'un véhicule sur la place de parking. 
@@ -7,6 +7,7 @@ Lorsque la place est libre, on éclairera une LED de couleur verte.
 
 ## Matériel nécéssaire
 - [Carte NodeMCU Lua Amica Module V2](https://leony.ydayslyon.fr/consumables/284)
+- [Breaboard](https://leony.ydayslyon.fr/consumables/291)
 - [LED Rouge](https://leony.ydayslyon.fr/consumables/80)
 - [LED Verte](https://leony.ydayslyon.fr/consumables/88)
 
@@ -14,7 +15,7 @@ Lorsque la place est libre, on éclairera une LED de couleur verte.
 N/A
 
 ## Schéma de branchement
-![branchements](../images/Screenshot_20220830_180316.png)
+![branchements](../images/step-1.png)
 
 
 ## Extrait de code 
