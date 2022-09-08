@@ -13,6 +13,9 @@ OU
 > ATTENTION : Si le capteur est branché à l'envers, il chauffe fortement.
 Si votre capteur devient chaud, débranchez le fil relié au 3V3 et laissez le refroidir. 
 
+![breaboard](../images/step-4_bb.png)
+![schematics](../images/step-4_schem.png)
+
 ## Envoie de l'information au serveur
 
 Pour la température, le message doit contenir les éléments suivants : 
@@ -26,4 +29,4 @@ fields : temperature (float)
 - [Librairie OneWire](https://www.arduino.cc/reference/en/libraries/onewire/) 
 
 ## Extraits de code 
-Les librairies mentionnées fournissent des exemples. 
+Les librairies en ressources fournissent des exemples. 

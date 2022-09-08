@@ -7,14 +7,13 @@ Après un délai prédéfinie, elle se referme.
 
 ## Matériel nécéssaire
 - [Carte NodeMCU Lua Amica Module V2](https://leony.ydayslyon.fr/consumables/284)
-- Moteur pas à pas 
-- Legos pour faire une barrière ? Impression 3D ? 
-- Bouton poussoir
+- [Moteur pas à pas](https://leony.ydayslyon.fr/consumables/146) + hélice. 
+- [Bouton poussoir](https://leony.ydayslyon.fr/consumables/237)
 
-## Ressources documentaires
-N/A
+## Ressources
+- [Librairie Servo](https://www.arduino.cc/reference/en/libraries/servo/)
 
-## Schéma de branchement
+## Branchements
 
-
-## Extrait de code 
+![breaboard](../images/2-step-1_bb.png)
+![schematics](../images/2-step-1_schem.png)

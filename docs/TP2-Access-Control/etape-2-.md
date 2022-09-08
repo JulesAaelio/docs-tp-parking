@@ -3,13 +3,14 @@
 ## Objectifs 
 Envoyer une information au serveur à chaque passage
 
-## Matériel nécéssaire
-- Interrupteur. 
+## Envoie de l'information au serveur
 
-## Ressources documentaires
-N/A
+Pour l'entrée : 
 
-## Schéma de branchement
+measurement = entrance   
+fields : count (int) 
 
+Pour la sortie : 
 
-## Extrait de code 
+measurement = entrance   
+fields : count (int) 

@@ -12,6 +12,10 @@ Pas de schéma fournis à cette étape. Figure it out.
 ## Ressources 
 - [Passive Buzzer Datasheet](https://www.electrokit.com/uploads/productfile/41015/Passive_Piezo_Buzzer.pdf)
 
+## Branchements
+![breaboard](../images/step-5_bb.png)
+![schematics](../images/step-5_schem.png)
+
 ## Extraits de code 
 Emettre un son à une certaine fréquence 
 
