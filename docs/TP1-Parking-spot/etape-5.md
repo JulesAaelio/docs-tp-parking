@@ -1,7 +1,7 @@
 # Etape 5 : Ajouter le buzzer
 
 ## Objectif 
-Lorsque la température dépasse un seuil prédéfini : émettre un son.
+Lorsque la température dépasse un seuil prédéfini : émettre un son (alarme). 
 
 ## Matériel nécéssaire 
 - Buzzer 
