@@ -1,9 +1,7 @@
 # Etape 1 : Faire clignoter les LEDS
 
 ## Objectifs 
-Utiliser un capteur de présence pour détecter la présence d'un véhicule sur la place de parking. 
-Lorsque la place est occupée, on éclairera une LED de couleur rouge. 
-Lorsque la place est libre, on éclairera une LED de couleur verte. 
+Faire clignoter les deux leds (rouge et verte).
 
 ## Matériel nécéssaire
 - [Carte NodeMCU Lua Amica Module V2](https://leony.ydayslyon.fr/consumables/284)
