@@ -10,7 +10,6 @@ Le schéma suivant décris le mapping des ports de la carte à microprocesseur:
 
 ![alt](https://cdn.sparkfun.com/assets/3/d/f/a/9/518c0b34ce395fea62000002.jpg)
 
-
 ## Installer une librairie 
 https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries
 

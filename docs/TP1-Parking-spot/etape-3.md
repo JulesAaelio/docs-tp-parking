@@ -15,12 +15,21 @@ N/A
 N/A
 
 ## Ressources 
-- [PubSubClient](https://www.arduino.cc/reference/en/libraries/pubsubclient/)
-- [ArduinoWifi](https://www.arduino.cc/reference/en/libraries/wifi/)
-- [ESP8266WifiExample](https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WiFi/examples/WiFiClient/WiFiClient.ino)
+- [Librairie PubSubClient](https://www.arduino.cc/reference/en/libraries/pubsubclient/)
+- [Librairie ArduinoWifi](https://www.arduino.cc/reference/en/libraries/wifi/)
+- [Librairie ESP8266WifiExample](https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WiFi/examples/WiFiClient/WiFiClient.ino)
 
 ## Extrait de code 
-Les librairies en ressources fournissent des exemples. 
+### Connexion à un réseau wifi et envoi d'un message mqtt
+
+https://github.com/knolleary/pubsubclient/blob/master/examples/mqtt_esp8266/mqtt_esp8266.ino
+
+### Intégrer des données dans une chaîne de caractères 
+```c
+  float data = 10.0;
+  char message[100];
+  sprintf(message, "mydata=%f",data);
+```
 
 ## Pour envoyer l'information au serveur
 Pour envoyer l'information au serveur, on utilise le protocole [MQTT](https://en.wikipedia.org/wiki/MQTT)   
@@ -44,6 +53,11 @@ Pour l'occupation de la place, le message doit contenir les éléments suivants 
 
 measurement = status   
 fields : status (int)  
+
+Exemple de message : 
+```
+temperature,spot=1 temperature=37.6
+```
 
 ### Troubleshooting
 Vous ne voyez pas vos informations s'afficher à l'écran ? 

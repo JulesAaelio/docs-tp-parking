@@ -19,6 +19,14 @@ Lorsque la place est libre, on éclairera une LED de couleur verte.
 ## Extraits de code 
 Lire la distance :
 ```c
+int TRIG_PIN = 13;
+int ECHO_PIN = 15;
+
+void setup() { 
+    pinMode(TRIG_PIN, OUTPUT);
+    pinMode(ECHO_PIN, INPUT);
+}
+
 float readDistanceCM() {
   digitalWrite(TRIG_PIN, LOW);
   delayMicroseconds(2);

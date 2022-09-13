@@ -7,7 +7,7 @@ Lorsque la température dépasse un seuil prédéfini : émettre un son (alarme)
 - Buzzer 
 
 ## Schémas de branchement 
-Pas de schéma fournis à cette étape. Figure it out. 
+Pas de schéma fournis à cette étape.
 
 ## Ressources 
 - [Passive Buzzer Datasheet](https://www.electrokit.com/uploads/productfile/41015/Passive_Piezo_Buzzer.pdf)
@@ -17,7 +17,7 @@ Pas de schéma fournis à cette étape. Figure it out.
 ![schematics](../images/step-5_schem.png)
 
 ## Extraits de code 
-Emettre un son à une certaine fréquence 
+Emettre un son à une certaine fréquence (uniquement pour les buzzer passifs)
 
 ```c
 tone(gpio, frequency);

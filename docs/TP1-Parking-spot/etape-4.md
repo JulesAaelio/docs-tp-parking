@@ -29,4 +29,5 @@ fields : temperature (float)
 - [Librairie OneWire](https://www.arduino.cc/reference/en/libraries/onewire/) 
 
 ## Extraits de code 
-Les librairies en ressources fournissent des exemples. 
+### Lire la temperature 
+https://github.com/milesburton/Arduino-Temperature-Control-Library/blob/master/examples/Simple/Simple.ino

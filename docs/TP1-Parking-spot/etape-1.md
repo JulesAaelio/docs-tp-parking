@@ -10,16 +10,13 @@ Faire clignoter les deux leds (rouge et verte).
 - [LED Verte](https://leony.ydayslyon.fr/consumables/88)
 - 2 x [Resistances 220](https://leony.ydayslyon.fr/consumables/104) 
 
-## Ressources documentaires
-N/A
-
 ## Schémas de branchement
 ![breaboard](../images/step-1_bb.png)
 ![schematics](../images/step-1_schem.png)
 
-
 ## Extrait de code 
-1 - Allumer et éteindre une LED
+
+### Allumer et éteindre une LED
 ```c
 int LED = 13;
 void setup() {
